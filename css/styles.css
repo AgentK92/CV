@@ -1,0 +1,151 @@
+/* NOTE:
+https://fonts.google.com/ - font family for imbedding
+https://www.flaticon.com/ - icons
+https://www.w3schools.com/css - formatting
+font size @ 100% is 16px use for sizing
+1em is 16px as well
+
+ */
+body {
+  background-color: #EEEEEE;
+  color: #222831;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #222831;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', sans-serif;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+}
+
+h2 {
+  color: #222831;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #222831;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: thick;
+  border-color: #393E46;
+  margin: 100px auto;
+}
+
+a {
+  color: #393E46;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EEEEEE;
+}
+
+p {
+  line-height: 2;
+}
+
+.btn {
+  background: #222831;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #EEEEEE;
+  font-size: 16px;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00ADB5;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #00ADB5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #00ADB5;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  margin: auto;
+  width: 30%
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+  width: 40%
+}
+
+.copyright-message {
+  color: #393E46;
+  font-size: .75rem;
+  padding: 20px 0;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.skill-1 {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-1-description {}
+
+.skill-2 {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.topCloud {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+}
+
+.footer-link {}
+
+img {
+  display: inline-block;
+}
