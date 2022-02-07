@@ -1,78 +1,61 @@
-<!DOCTYPE html> <!-- what version of html we're using(5)-->
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>Kyle's Personal Site</title>
+  <title>Kyle Long</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing='20'>
-    <tr>
-      <td><img src="images/pfp-kyle.png" alt="kyle profile picture"></td>
+  <div class="top-container">
+    <img class="topCloud" src="CSS - My Site Images\cloud.png" alt="cloud-img">
+    <h1>I'm Kyle.</h1>
+    <h2>A <span class="pro">pro</span>grammer.</h2>
+    <img class="bottomCloud" src="CSS - My Site Images\cloud.png" alt="cloud-img">
+    <img src="CSS - My Site Images\mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="CSS - My Site Images\pfp-kyle.png" alt="profile picture">
+      <h2>Hello.</h2>
+      <p class="intro">I'm a junior web developer looking to expand my portfolio! I love coffee and beach volleyball, not at the same time though.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-1" src="CSS - My Site Images\ufo.png" alt="pic">
+        <h3>Design & Development</h3>
+        <p class="skill-1-description">I started learning to code to make a change in my career for the better. I'm interested in software and web develpment, as well as agile project management.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-2" src="CSS - My Site Images\volleyball.png" alt="pic" />
+        <h3>Beach Volleyball</h3>
+        <p>One of my best skills is playing beach volleyball. I'm a very well rounded player and really enjoy the teamwork and competitive atmosphere.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>I'd love to hear from you!</h3>
+      <p class="contact-message">Do you like to code? Or do you like beach volleyball? Let's connect!</p>
+      <a class="btn" href="mailto:k.long592@yahoo.com">CONTACT ME</a>
+    </div>
+  </div>
 
-      <td>
-        <h1>Kyle Long</h1>
-        <p><em>Junior Web Developer</em></p>
-        <p><a href="https://www.linkedin.com/in/kyle-long-69207b22a/">LinkedIn</a></p>
-        <p>I'm currently interested in web development, software development, and ultimately would like to end up working as an agile scrum project manager.</p>
-      </td>
-    </tr>
-  </table cellspacing='10'>
 
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>Central Crossing HS</li>
-    <li>Wright State University</li>
-    <li>The Ohio State University</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-
-    </tbody>
-    <tfoot>
-
-    </tfoot>
-    <tr>
-      <td>2016-2021</td>
-      <td>Operations Manager at OP Recycling</td>
-    </tr>
-    <tr>
-      <td>2010-2015</td>
-      <td>Sales Associate at Spartan Tool Supply</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-
-  <table cellspacing='10'>
-    <tr>
-      <td>Python</td>
-      <td>🌟🌟</td>
-    </tr>
-    <tr>
-      <td>Manual Testing</td>
-      <td>🌟🌟🌟🌟</td>
-    </tr>
-    <tr>
-      <td>Web Design</td>
-      <td>🌟🌟</td>
-    </tr>
-
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a> <br>
-
-  <a href="contacts.html">Contact Info</a>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/kyle-long-69207b22a/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/AgentK92">Github</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Projects</a>
+    <a class="footer-link" href="credits.html">Credits :)</a>
+    <p class="copyright-message">© 2022 Kyle Long</p>
+  </div>
 </body>
 
 </html>
